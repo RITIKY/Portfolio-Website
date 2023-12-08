@@ -6,6 +6,8 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import home2 from "../../Assets/home2.png"
+import home3 from "../../Assets/home3.png"  
 
 function About() {
   return (
@@ -28,10 +30,10 @@ function About() {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            style={{ paddingTop: "80px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img src={home2} alt="about" style={{height: "70%"}} className="img-fluid" />
           </Col>
         </Row>
         <h1 className="project-heading">
@@ -45,7 +47,7 @@ function About() {
         </h1>
         <Toolstack />
 
-        <Github />
+        {/* <Github /> */}
       </Container>
     </Container>
   );

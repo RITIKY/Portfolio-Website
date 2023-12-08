@@ -11,27 +11,30 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Ritik Yadav </span>
             from <span className="purple"> Kharagpur, West Bengal, India.</span>
             <br />
-            I am currently employed as a software developer at PwC in Bangalore.
+            I am currently employed as a software developer at <span className="purple">PwC Bangalore.</span>
             <br />
-            I have completed My Btech from Silicon Institute of Technology, Bhubaneshwar.
+            I have completed My bachelor of technology from Silicon Institute of Technology, Bhubaneshwar.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Investment knowdledge
+              <ImPointRight /> Painting
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
             </li>
+            <li className="about-activity">
+              <ImPointRight /> Playing Cricket
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Investment knowdledge
+            </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          “I believe that I can make a difference.”{" "}
           </p>
           <footer className="blockquote-footer">Ritik Yadav</footer>
         </blockquote>

@@ -11,7 +11,7 @@ import {
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" style={{ color: 'yellow' }}>
         <SiMacos />
       </Col>
       <Col xs={4} md={2} className="tech-icons" style={{ color: 'blue' }}>
@@ -23,7 +23,7 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons" style={{ color: 'red' }}>
         <SiSlack />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" style={{ color: 'black' }}>
         <SiVercel />
       </Col>
     </Row>

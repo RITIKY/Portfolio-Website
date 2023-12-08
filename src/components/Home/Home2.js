@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
 import img from "../../Assets/my img.jpeg";
 import Tilt from "react-parallax-tilt";
 import {
@@ -40,17 +39,17 @@ function Home2() {
               My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> and
-                also in areas related to <b className="purple">Blockchain.</b>
+                also in areas related to <b className="purple">prompt engineering</b>
               </i>
               <br />
               <br />
               Currently I am learning javascript Frameworks like <b className="purple">Next Js</b> to make
-              my development journey more smooth and fast.
+              my development journey more smooth and faster.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={img} className="img-fluid w-50" alt="avatar" />
+              <img src={img} style={{borderRadius: "10px"}} className="img-fluid w-50 " alt="avatar" />
             </Tilt>
           </Col>
         </Row>
@@ -73,7 +72,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  // href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/RitikYa06208314"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

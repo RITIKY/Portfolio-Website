@@ -26,7 +26,7 @@ import { TbBrandGolang } from "react-icons/tb";
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" style={{ color: 'blue' }}>
         <CgCPlusPlus />
       </Col>
       <Col xs={4} md={2} className="tech-icons" style={{ color: 'yellow' }}>
@@ -47,7 +47,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons" style={{ color: 'green' }}>
         <DiMongodb />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" style={{ color: 'black'}}>
         <SiNextdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons" style={{ color: 'orange' }}>

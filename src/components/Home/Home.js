@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import home1 from "../../Assets/home1.png";
 
 function Home() {
   return (
@@ -19,23 +19,25 @@ function Home() {
                   👋🏻
                 </span>
               </h1>
-
+              {/* <h1 className="heading-name1">Welcome to my Portfolio Website</h1> */}
               <h1 className="heading-name">
                 I'M
                 <strong className="main-name"> RITIK YADAV </strong>
               </h1>
+              
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5} style={{ paddingBottom: 20, marginTop: "50px" }}>
               <img
-                src={homeLogo}
+                // src={homeLogo}
+                src={home1}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{ maxHeight: "450px", height: "80%" }}
               />
             </Col>
           </Row>

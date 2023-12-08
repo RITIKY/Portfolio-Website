@@ -1,17 +1,22 @@
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
+    rgba(43, 43, 160, 0.582),
+    rgba(113, 31, 31, 0.904)
+    /* rgba(17, 16, 16, 0.678),
+    rgba(12, 10, 22, 0.863) */
+    
   );
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
+    rgba(43, 43, 160, 0.582),
+    rgba(113, 31, 31, 0.904)
+    /* rgba(17, 16, 16, 0.678),
+    rgba(12, 10, 22, 0.863) */
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #e79e4a;
 }
 
 .purple {
@@ -266,7 +271,7 @@ button:focus {
 
 .home-content {
   padding: 9rem 0 2rem !important;
-  color: whitesmoke;
+  color: rgb(241, 242, 247);
   text-align: left;
 }
 
@@ -279,6 +284,10 @@ button:focus {
   font-size: 2.5em !important;
   padding-left: 45px !important;
 }
+.heading-name1 {
+  font-size: 2em !important;
+  padding-left: 45px !important;
+}
 
 .main-name {
   color: #cd5ff8;
@@ -286,12 +295,12 @@ button:focus {
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #e79e4a !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #e79e4a !important;
 }
 
 @media (max-width: 767px) {
@@ -307,7 +316,7 @@ button:focus {
 
 .myAvtar {
   justify-content: center !important;
-  padding-top: 9em !important;
+  padding-top: 15em !important;
 }
 
 @media (max-width: 767px) {
@@ -319,8 +328,8 @@ button:focus {
 
 .home-about-section {
   position: relative;
-  padding-bottom: 70px !important;
-  padding-top: 70px !important;
+  padding-bottom: 20px !important;
+  padding-top: 5px !important;
 }
 
 .home-about-description {
@@ -437,6 +446,9 @@ button:focus {
   margin-bottom: 0.5em !important;
   padding: 0 !important;
 }
+.footer-icons svg{
+  font-size: x-large;
+}
 
 .blockquote-footer {
   color: #a588c0 !important;
@@ -446,7 +458,7 @@ button:focus {
 /* --------- */
 .project-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 100px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
 }
@@ -460,7 +472,7 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  box-shadow: 0 4px 5px 3px rgba(250, 249, 251, 0.459) !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -470,7 +482,7 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  box-shadow: 0 4px 4px 5px rgba(230, 110, 110, 0.561) !important;
 }
 
 .blog-card {
