@@ -72,7 +72,7 @@ function Projects() {
               isBlog={false}
               title="Email clone"
               description="The Gmail clone frontend project aims to recreate the user interface of the popular email service Gmail. This project will be built using React.js to create a responsive and interactive single-page application for managing emails having compose mail box."
-              ghLink=""
+              ghLink="https://github.com/RITIKY/Gmail-Clone"
               demoLink="" 
             />
           </Col>
