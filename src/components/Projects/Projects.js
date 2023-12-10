@@ -26,10 +26,10 @@ function Projects() {
             <ProjectCard
               imgPath={netflix}
               isBlog={false}
-              title="Netflix Gpt  "
+              title="Netflix Gpt"
               description="The Netflix Gpt is a Netflix clone project aims to replicate the user interface and some features of the popular streaming platform Netflix. This project will be built using React.js to create a dynamic and responsive single-page application."
               ghLink="https://github.com/RITIKY/Netflix-GPT"
-              demoLink="https://netflix-gpt-drab.vercel.app"
+              demoLink="https://netflix-gpt-beige.vercel.app/browse"
             />
           </Col>
 
