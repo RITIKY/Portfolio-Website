@@ -40,7 +40,7 @@ function Projects() {
               title="Youtube Clone"
               description="The YouTube clone frontend project aims to replicate the user interface and core features of the popular video-sharing platform. This React-based single-page application will allow users to search for videos, watch them, and interact with a video player."
               ghLink="https://github.com/RITIKY/YouTube-App"
-              demoLink="https://youtube-clone-viewtube.netlify.app/"
+              demoLink=""
             />
           </Col>
 
