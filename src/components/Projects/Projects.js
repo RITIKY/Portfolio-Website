@@ -8,7 +8,7 @@ import socialapp from "../../Assets/Projects/socialapp.png";
 import netflix from "../../Assets/Projects/netflix.png";
 import shopingCart from "../../Assets/Projects/shopingCart.png";
 import youtube from "../../Assets/Projects/youtube.png";
-
+import music from "../../Assets/Projects/MusicApp.png";
 
 function Projects() {
   return (
@@ -35,12 +35,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={youtube}
+              imgPath={music}
               isBlog={false}
-              title="Youtube Clone"
-              description="The YouTube clone frontend project aims to replicate the user interface and core features of the popular video-sharing platform. This React-based single-page application will allow users to search for videos, watch them, and interact with a video player."
-              ghLink="https://github.com/RITIKY/YouTube-App"
-              demoLink=""
+              title="Netflix Gpt"
+              description="The Netflix Gpt is a Netflix clone project aims to replicate the user interface and some features of the popular streaming platform Netflix. This project will be built using React.js to create a dynamic and responsive single-page application."
+              ghLink="https://github.com/RITIKY/Music-App"
+              demoLink="https://ravoluzen-musix.netlify.app/"
             />
           </Col>
 
@@ -51,7 +51,7 @@ function Projects() {
               title="Swiggy Clone"
               description="The food delivery application frontend project aims to replicate the user interface and functionality of popular platforms like Swiggy. This React-based single-page application will allow users to explore restaurants, view menus, place orders, and track deliveries."
               ghLink="https://github.com/RITIKY/Food-Order-App"
-              demoLink="https://food-order-app-five-beta.vercel.app/"              
+              demoLink="https://food-order-app-five-beta.vercel.app/"
             />
           </Col>
 
@@ -68,23 +68,34 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={email}
-              isBlog={false}
-              title="Email clone"
-              description="The Gmail clone frontend project aims to recreate the user interface of the popular email service Gmail. This project will be built using React.js to create a responsive and interactive single-page application for managing emails having compose mail box."
-              ghLink="https://github.com/RITIKY/Gmail-Clone"
-              demoLink="" 
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={shopingCart}
               isBlog={false}
               title="Shopping Cart App"
               description="Creating a shopping cart application in React with Redux involves building a dynamic and interactive frontend that allows users to browse products, add them to a shopping cart, and manage their purchases."
               ghLink="https://github.com/RITIKY/Shopping-Cart-Application"
-              demoLink="https://shopping-cart-application-alpha.vercel.app/"     
+              demoLink="https://shopping-cart-application-alpha.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={youtube}
+              isBlog={false}
+              title="Youtube Clone"
+              description="The YouTube clone frontend project aims to replicate the user interface and core features of the popular video-sharing platform. This React-based single-page application will allow users to search for videos, watch them, and interact with a video player."
+              ghLink="https://github.com/RITIKY/YouTube-App"
+              demoLink=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={email}
+              isBlog={false}
+              title="Email clone"
+              description="The Gmail clone frontend project aims to recreate the user interface of the popular email service Gmail. This project will be built using React.js to create a responsive and interactive single-page application for managing emails having compose mail box."
+              ghLink="https://github.com/RITIKY/Gmail-Clone"
+              demoLink=""
             />
           </Col>
         </Row>
