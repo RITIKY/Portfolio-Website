@@ -27,7 +27,7 @@ function Projects() {
               imgPath={netflix}
               isBlog={false}
               title="Netflix Gpt"
-              description="The Netflix Gpt is a Netflix clone project aims to replicate the user interface and some features of the popular streaming platform Netflix. This project will be built using React.js to create a dynamic and responsive single-page application."
+              description="The Netflix Gpt is a Netflix clone project aims to replicate the user interface and some features of the popular streaming platform Netflix. This project is built using React.js to create a dynamic and responsive single-page application."
               ghLink="https://github.com/RITIKY/Netflix-GPT"
               demoLink="https://netflix-gpt-beige.vercel.app/browse"
             />
@@ -38,7 +38,7 @@ function Projects() {
               imgPath={music}
               isBlog={false}
               title="Music App"
-              description="A full fledged online music streaming and exploration app made with ReactJS, TailwindCSS and Shazam Core API"
+              description="A full fledged online music streaming and exploration app with search your music feature having similar user experince like spotify and other online streaming application.This project is built using ReactJS, TailwindCSS and Shazam Core API"
               ghLink="https://github.com/RITIKY/Music-App"
               demoLink="https://ravoluzen-musix.netlify.app/"
             />
