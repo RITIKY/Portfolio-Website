@@ -9,6 +9,7 @@ import netflix from "../../Assets/Projects/netflix.png";
 import shopingCart from "../../Assets/Projects/shopingCart.png";
 import youtube from "../../Assets/Projects/youtube.png";
 import music from "../../Assets/Projects/MusicApp.png";
+import jobSearch from "../../Assets/Projects/jobSearch.png";
 
 function Projects() {
   return (
@@ -24,10 +25,10 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={netflix}
+              imgPath={jobSearch}
               isBlog={false}
-              title="Netflix Gpt"
-              description="The Netflix Gpt is a Netflix clone project aims to replicate the user interface and some features of the popular streaming platform Netflix. This project is built using React.js to create a dynamic and responsive single-page application."
+              title="Job Portal"
+              description="This project is a comprehensive job search portal designed to facilitate the hiring process. It allows recruiters to post job listings and manage applications efficiently. On the other hand, job seekers can create profiles, search for job opportunities, and apply for positions that match their skill sets."
               ghLink="https://github.com/RITIKY/Netflix-GPT"
               demoLink="https://netflix-gpt-beige.vercel.app/browse"
             />
@@ -63,6 +64,17 @@ function Projects() {
               description="The social media app frontend project aims to replicate the user interface and functionality of popular platforms like Facebook. This React-based single-page application will allow users to create profiles, connect with friends, share posts, and engage in various social interactions."
               ghLink="https://github.com/RITIKY/Social-App"
               demoLink="https://social-app-eight-omega.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={netflix}
+              isBlog={false}
+              title="Netflix Gpt"
+              description="The Netflix Gpt is a Netflix clone project aims to replicate the user interface and some features of the popular streaming platform Netflix. This project is built using React.js to create a dynamic and responsive single-page application."
+              ghLink="https://github.com/RITIKY/Netflix-GPT"
+              demoLink="https://netflix-gpt-beige.vercel.app/browse"
             />
           </Col>
 
