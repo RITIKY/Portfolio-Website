@@ -29,8 +29,8 @@ function Projects() {
               isBlog={false}
               title="Job Portal"
               description="This project is a comprehensive job search portal designed to facilitate the hiring process. It allows recruiters to post job listings and manage applications efficiently. On the other hand, job seekers can create profiles, search for job opportunities, and apply for positions that match their skill sets."
-              ghLink="https://github.com/RITIKY/Netflix-GPT"
-              demoLink="https://netflix-gpt-beige.vercel.app/browse"
+              ghLink="https://github.com/RITIKY/job-search-client"
+              demoLink="https://job-search-portal-tan.vercel.app/"
             />
           </Col>
 
@@ -74,7 +74,7 @@ function Projects() {
               title="Netflix Gpt"
               description="The Netflix Gpt is a Netflix clone project aims to replicate the user interface and some features of the popular streaming platform Netflix. This project is built using React.js to create a dynamic and responsive single-page application."
               ghLink="https://github.com/RITIKY/Netflix-GPT"
-              demoLink="https://netflix-gpt-beige.vercel.app/browse"
+              // demoLink="https://netflix-gpt-beige.vercel.app/browse"
             />
           </Col>
 
